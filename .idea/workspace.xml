@@ -5,8 +5,84 @@
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/os/Cargo.toml" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c07e517-c660-499f-bcf0-2b9cc16b733f" name="更改" comment="" />
+    <list default="true" id="5c07e517-c660-499f-bcf0-2b9cc16b733f" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootloader/rustsbi-k210.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootloader/rustsbi-qemu.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/lab1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/.cargo/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/rust-toolchain" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/src/console.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/src/entry.asm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/src/lang_items.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/src/linker.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/src/sbi.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/.rustc_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/CACHEDIR.TAG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/.cargo-lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/.fingerprint/os-c4e64d229733e3a7/bin-os" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/.fingerprint/os-c4e64d229733e3a7/bin-os.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/.fingerprint/os-c4e64d229733e3a7/dep-bin-os" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/.fingerprint/os-c4e64d229733e3a7/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/deps/os-c4e64d229733e3a7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/deps/os-c4e64d229733e3a7.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/incremental/os-1ut4j7la44dki/s-g6a16w4jtk-1y558cx-1wg15t30r5lml/1lx01yh2uaz524yz.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/incremental/os-1ut4j7la44dki/s-g6a16w4jtk-1y558cx-1wg15t30r5lml/35k1n1gsv0mut394.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/incremental/os-1ut4j7la44dki/s-g6a16w4jtk-1y558cx-1wg15t30r5lml/3makro9ch36xahpw.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/incremental/os-1ut4j7la44dki/s-g6a16w4jtk-1y558cx-1wg15t30r5lml/3ulnqj2zbgsrfdyx.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/incremental/os-1ut4j7la44dki/s-g6a16w4jtk-1y558cx-1wg15t30r5lml/43b7sw16b147spff.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/incremental/os-1ut4j7la44dki/s-g6a16w4jtk-1y558cx-1wg15t30r5lml/4kah8j0y8i9y4oje.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/incremental/os-1ut4j7la44dki/s-g6a16w4jtk-1y558cx-1wg15t30r5lml/5864vwuo8m8n5l6b.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/incremental/os-1ut4j7la44dki/s-g6a16w4jtk-1y558cx-1wg15t30r5lml/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/incremental/os-1ut4j7la44dki/s-g6a16w4jtk-1y558cx-1wg15t30r5lml/ld7s3uuilhfwd02.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/incremental/os-1ut4j7la44dki/s-g6a16w4jtk-1y558cx-1wg15t30r5lml/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/incremental/os-1ut4j7la44dki/s-g6a16w4jtk-1y558cx-1wg15t30r5lml/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/incremental/os-1ut4j7la44dki/s-g6a16w4jtk-1y558cx.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/os" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/debug/os.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/release/.cargo-lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/CACHEDIR.TAG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/.cargo-lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/.fingerprint/os-1ee2bc86448aa2d0/bin-os" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/.fingerprint/os-1ee2bc86448aa2d0/bin-os.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/.fingerprint/os-1ee2bc86448aa2d0/dep-bin-os" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/.fingerprint/os-1ee2bc86448aa2d0/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/.fingerprint/os-1ee2bc86448aa2d0/output-bin-os" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/deps/os-1ee2bc86448aa2d0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/deps/os-1ee2bc86448aa2d0.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/incremental/os-3qwny8vdaleif/s-g6a1mqvojj-gds7ys-bfwzgrkqkzfs/1f6itnejz4uuj38t.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/incremental/os-3qwny8vdaleif/s-g6a1mqvojj-gds7ys-bfwzgrkqkzfs/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/incremental/os-3qwny8vdaleif/s-g6a1mqvojj-gds7ys-bfwzgrkqkzfs/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/incremental/os-3qwny8vdaleif/s-g6a1mqvojj-gds7ys-bfwzgrkqkzfs/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/incremental/os-3qwny8vdaleif/s-g6a1mqvojj-gds7ys.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/incremental/os-3qwny8vdaleif/s-g6a23gk3mo-mgy9u8-working/1f6itnejz4uuj38t.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/incremental/os-3qwny8vdaleif/s-g6a23gk3mo-mgy9u8-working/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/incremental/os-3qwny8vdaleif/s-g6a23gk3mo-mgy9u8-working/dep-graph.part.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/incremental/os-3qwny8vdaleif/s-g6a23gk3mo-mgy9u8-working/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/incremental/os-3qwny8vdaleif/s-g6a23gk3mo-mgy9u8-working/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/incremental/os-3qwny8vdaleif/s-g6a23gk3mo-mgy9u8.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/os" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/debug/os.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/release/.cargo-lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/release/.fingerprint/os-411ec35b302d4858/bin-os" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/release/.fingerprint/os-411ec35b302d4858/bin-os.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/release/.fingerprint/os-411ec35b302d4858/dep-bin-os" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/release/.fingerprint/os-411ec35b302d4858/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/release/deps/os-411ec35b302d4858" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/release/deps/os-411ec35b302d4858.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/release/os" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/release/os.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/target/riscv64gc-unknown-none-elf/release/os.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +92,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/os" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="lhm22qba" />
@@ -30,22 +106,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rCore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/os/Cargo.toml" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications//wsl$/Ubuntu/home/xzhy324/rcore/project/os/Cargo.toml" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications//wsl$/Ubuntu/home/xzhy324/rcore/project/os/src/lang_items.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications//wsl$/Ubuntu/home/xzhy324/rcore/project/os/src/main.rs" value="true" />
+    <property name="org.rust.hideNoCargoProjectNotifications//wsl$/Ubuntu/home/xzhy324/rcore/project/os/src/module.rs" value="true" />
+    <property name="org.rust.hideNoCargoProjectNotifications//wsl$/Ubuntu/home/xzhy324/rcore/project/os/src/sbi.rs" value="true" />
+    <property name="settings.editor.selected.configurable" value="language.rust.cargo.check" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\home\xzhy324\rcore\project" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -63,6 +148,9 @@
       <updated>1637984951351</updated>
       <workItem from="1637984952891" duration="16000" />
       <workItem from="1642669619736" duration="1175000" />
+      <workItem from="1642672210041" duration="176000" />
+      <workItem from="1642672482294" duration="7192000" />
+      <workItem from="1642689479153" duration="1713000" />
     </task>
     <servers />
   </component>
@@ -79,5 +167,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
