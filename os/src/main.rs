@@ -11,7 +11,6 @@ mod sbi;
 #[macro_use]
 mod console;
 
-
 global_asm!(include_str!("entry.asm"));
 
 #[no_mangle]
@@ -19,12 +18,17 @@ pub fn rust_main() -> ! {
     //在内核加载时完成bss段的清零工作
     clear_bss();
 
-    println!("hello world!");
-    error!("error test!");
-    info!("info test!");
-    warning!("warning test!");
-    debug!("debug test!");
-    trace!("trace test!");
+    extern "C" {fn stext();fn etext();}
+    extern "C" {fn srodata(); fn erodata();}
+    extern "C" {fn edata();fn sdata();}
+    extern "C" {fn skernel(); fn ekernel();}
+
+
+    info!(".text [{:#x}, {:#x})", stext as usize, etext as usize);
+    debug!(".rodata [{:#x}, {:#x})", srodata as usize, erodata as usize);
+    error!(".data [{:#x}, {:#x})", sdata as usize, edata as usize);
+
+    info!("load range : [{:#x}, {:#x}]\n", skernel as usize, ekernel as usize);
 
     panic!("shutDown machine!");
 }
