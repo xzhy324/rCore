@@ -21,9 +21,16 @@ pub fn rust_main() -> ! {
 
     println!("hello world!");
     error!("error test!");
+    info!("info test!");
+    warning!("warning test!");
+    debug!("debug test!");
+    trace!("trace test!");
 
     loop {}
 }
+
+
+
 
 //完成对内核Block Started by Symbol（BSS段）的初始化工作，这段一般用来保存未初始化的全局变量，在本实验中也是堆栈存放的位置
 fn clear_bss() {
