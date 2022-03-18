@@ -26,7 +26,7 @@ pub fn rust_main() -> ! {
     debug!("debug test!");
     trace!("trace test!");
 
-    loop {}
+    panic!("shutDown machine!");
 }
 
 

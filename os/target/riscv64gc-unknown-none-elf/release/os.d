@@ -1,1 +1,0 @@
-/home/xzhy324/rcore/project/os/target/riscv64gc-unknown-none-elf/release/os: /home/xzhy324/rcore/project/os/src/console.rs /home/xzhy324/rcore/project/os/src/entry.asm /home/xzhy324/rcore/project/os/src/lang_items.rs /home/xzhy324/rcore/project/os/src/main.rs /home/xzhy324/rcore/project/os/src/sbi.rs

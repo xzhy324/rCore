@@ -1,5 +1,4 @@
 .idea
-Cargo.lock
-target
 os/Cargo.lock
 os/target
+os/.idea
