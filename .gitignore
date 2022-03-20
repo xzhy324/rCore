@@ -2,3 +2,6 @@
 os/Cargo.lock
 os/target
 os/.idea
+user/.idea
+user/Cargo.lock
+user/target
