@@ -1,27 +1,10 @@
-# rCore实验日志
+# rCore Experiment [OS Camp2022]
 
+An OS written in Rust , targeting RISCV , supported by THU rCore experiment.
 
-
-## 更新周期
-
-1.20-2.1 every day
-
-## 组织形式
-
-直接在主分支上完成实验，实验过程文档记录下 `/doc`下
-
-## 进度一览
-
-### 1.20
-
-完成了实验1，以及彩色输出模块
-
-待完成任务：
-
-* 添加日志输出等级
-* 编写Makefile
-
-### 1.21
+# Branch
+Experiement is conducted on `main branch`. After a chapter's work is merely done, a
+ branch name after the `index of chapter` will be created to record work progress.
 
 
 
