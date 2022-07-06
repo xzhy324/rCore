@@ -17,6 +17,9 @@ fn syscall(id: usize, args: [usize; 3]) -> isize {
     ret
 }
 
+
+//ch2新增系统调用
+//功能：将内容缓冲区中的数据写入文件
 pub fn sys_write(fd:usize, buffer:&[u8]) -> isize{
     //注意 sys_write 使用一个 &[u8] 切片类型来描述缓冲区
     //这是一个 胖指针 (Fat Pointer)，里面既包含缓冲区的起始地址，还包含缓冲区的长度

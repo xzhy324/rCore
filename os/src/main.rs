@@ -5,13 +5,17 @@
 use core::arch::global_asm;
 //use log::{self,info, warn, error};
 
-mod lang_items;
-mod sbi;
-
 #[macro_use]
 mod console;
+mod batch;
+mod lang_items;
+mod sbi;
+mod sync;
+mod syscall;
+mod trap;
 
 global_asm!(include_str!("entry.asm"));
+global_asm!(include_str!("link_app.S"));
 
 #[no_mangle]
 pub fn rust_main() -> ! {
@@ -24,13 +28,15 @@ pub fn rust_main() -> ! {
     extern "C" {fn skernel(); fn ekernel();}
 
 
-    info!(".text [{:#x}, {:#x})", stext as usize, etext as usize);
+    debug!(".text [{:#x}, {:#x})", stext as usize, etext as usize);
     debug!(".rodata [{:#x}, {:#x})", srodata as usize, erodata as usize);
-    error!(".data [{:#x}, {:#x})", sdata as usize, edata as usize);
+    debug!(".data [{:#x}, {:#x})", sdata as usize, edata as usize);
+    debug!("load range : [{:#x}, {:#x}]\n", skernel as usize, ekernel as usize);
 
-    info!("load range : [{:#x}, {:#x}]\n", skernel as usize, ekernel as usize);
+    trap::init();
+    batch::init();
+    batch::run_next_app();
 
-    panic!("shutDown machine!");
 }
 
 
